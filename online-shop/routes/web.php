@@ -21,3 +21,8 @@ Route::get('In stock',function()
 {
     return view ('in stock');
 });
+
+function (){
+    $stocks = App\Stock::all(); 
+
+}
