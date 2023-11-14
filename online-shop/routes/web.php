@@ -22,3 +22,8 @@ Route::get('In stock',function()
     return view ('in stock');
 });
 
+}):
+
+function (iditem){
+return 'this item out of stock ';
+}
