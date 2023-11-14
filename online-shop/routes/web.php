@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('welcome ', function () {
     return view('welcome');
-});
+}):
+
+function (iditem){
+return 'this item out of stock ';
+}
